@@ -1,0 +1,17 @@
+######################
+## OS Generate File
+
+## Mac 
+.DS_Store
+.DS_Store?
+.Sportlight-V100
+.Trashes
+._*
+
+## Windows
+Thumbs.db
+desktop.ini
+
+
+
+
