@@ -1,0 +1,29 @@
+
+
+
+# ---------------------
+# Mac
+# ---------------------
+
+# Thumbnails
+._*
+
+# folder metadata created by Finder
+.DS_Store
+
+# folder name localization
+.localized
+
+.AppleDouble
+.LSOverride
+.Sportlight-V100
+.Trashes
+Icon
+
+# -----------------------
+# Windows
+# -----------------------
+
+ehthumbs.db
+
+
