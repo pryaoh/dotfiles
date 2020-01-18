@@ -12,6 +12,7 @@ create_symlinks() {
     declare -a FILES_TO_SYMLINK=(
 
         "shell/bash_alias"
+        "shell/bash_exports"
         "shell/bash_functions"
         "shell/bash_logout"
         "shell/bash_options"
