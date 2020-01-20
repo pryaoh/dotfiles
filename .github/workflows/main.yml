@@ -14,4 +14,4 @@ jobs:
       run: brew install shellcheck
       
     - name: Run Tests
-      run: .tests/shellcheck.sh
+      run: ./tests.sh

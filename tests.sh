@@ -1,13 +1,13 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SORUCE[0]}")" \
-    && source "../setup/utils.sh"
+    && source "./setup/utils.sh"
 
 main() {
 
     find \
-        ../setup \
-        ../shell \
+        ./setup \
+        ./shell \
         -type f \
         -exec shellcheck \
                  -e SC1090 \
@@ -16,7 +16,7 @@ main() {
                  -e SC2164 \
         {} +
 
-    print_result $? "Run ShellCheck"
+    print_result $? "Run Tests"
 
 }
 
