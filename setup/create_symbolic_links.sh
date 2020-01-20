@@ -20,9 +20,9 @@ create_symlinks() {
         "shell/bash_prompt"
         "shell/bashrc"
 
-       # "git/gitattributes"
-       # "git/gitconfig"
-       # "git/gitignore"
+        "git/gitattributes"
+        "git/gitconfig"
+        "git/gitignore"
     )
 
 
