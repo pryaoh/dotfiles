@@ -1,0 +1,17 @@
+name: macos
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      
+    - name: Install shellcheck
+      run: brew install shellcheck
+      
+    - name: Run Tests
+      run: .tests/shellcheck.sh
